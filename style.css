@@ -14,7 +14,7 @@ body{
     max-width: 100%;
     padding: 0 8px;
     margin: 0 auto;
-    height: 100vh;
+    height: 96vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,6 +53,7 @@ button:hover{
     line-height: 1.7;
     padding-bottom: 1em;
     font-style: italic;
+    text-align: center;
 }
 
 #attempts{
@@ -62,7 +63,7 @@ button:hover{
 
 .in-game-text{
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .disabled{
@@ -73,13 +74,3 @@ button:hover{
     display: none;
 }
 
-
-@media (max-width:400px)
-{
-    .container{
-        padding: 0 1em;
-    }
-    p{
-        font-size: 14px;
-    }
-}
