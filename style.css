@@ -71,13 +71,7 @@ button:hover{
     pointer-events: none;
 }
 
-@media(max-width:500px)
-{
-    .container{
-        height: auto;
-        margin: 3em auto;
-    }
-}
+
 
 .removed{
     display: none;
