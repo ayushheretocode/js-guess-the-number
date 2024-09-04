@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: "Roboto", system-ui;
+    color: rgb(0, 0, 77);
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 8px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#heading{
+    font-size: 38px;
+}
+
+input{
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(0, 0, 77);
+}
+
+button{
+    background-color: goldenrod;
+    width: 150px;
+    color: inherit;
+    font-size: 16px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.rules{
+    line-height: 1.7;
+    padding-bottom: 1em;
+    font-style: italic;
+}
+
+#attempts{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.in-game-text{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
+.removed{
+    display: none;
+}
+
+
+@media (max-width:400px)
+{
+    .container{
+        padding: 0 1em;
+    }
+    p{
+        font-size: 14px;
+    }
+}
