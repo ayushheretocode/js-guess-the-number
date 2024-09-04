@@ -113,7 +113,7 @@ function youHaveWon()
 function gameOver(){
 
 
-    attemptsEl.textContent="Game Over! You could not guess the number."
+    attemptsEl.innerHTML='<p>Game Over!!! <br> You could not guess the number.</p>'
     
     inputNumEl.classList.add('disabled')
     submitBtn.classList.add('disabled')
